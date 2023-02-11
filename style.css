@@ -82,6 +82,19 @@
     /* https://codepen.io/sosuke/pen/Pjoqqp - filter computing*/
     filter: invert(100%) sepia(31%) saturate(1287%) hue-rotate(293deg) brightness(123%) contrast(100%);
   }
+
+  .visually-hidden {
+    position: absolute;
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0,0,0,0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+  }
 }
 
 @media (min-width: 376px) {
@@ -168,5 +181,18 @@
 
   footer img:hover {
     filter: invert(77%) sepia(36%) saturate(1601%) hue-rotate(249deg) brightness(97%) contrast(87%);
+  }
+
+  .visually-hidden {
+    position: absolute;
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0,0,0,0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
   }
 }
